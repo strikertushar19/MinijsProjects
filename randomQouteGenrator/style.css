@@ -1,0 +1,37 @@
+body{
+    background: skyblue;
+
+}
+.container{
+
+    display:flex;
+    width: 95%;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.quotes{
+
+    width: 900px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #f4edae;
+}
+.quotes p , .quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px)  {
+    
+.quotes p , .quotes h3{
+    font-size: 1.5rem;
+}
+
+    
+}
